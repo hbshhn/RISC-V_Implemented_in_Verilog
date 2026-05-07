@@ -23,7 +23,7 @@ end
 
 always @ (*)
 begin
-    ReadData1 = register[ReadRegister1]; // tje combinational logic that outputs registers
+    ReadData1 = register[ReadRegister1]; // the combinational logic that outputs registers
     ReadData2 = register[ReadRegister2];
 end
 endmodule
