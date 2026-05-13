@@ -4,8 +4,8 @@ module InstructionMemory
     output reg [31:0] Instruction
 );
 
-    reg [7:0] memory [0:2048]; // the internal memory
-    // 16 kb, 2048 rows each with 8 bit bytes
+    reg [7:0] memory [0:2047]; // the internal memory
+    // 16 kb total, 2048 rows each with 8 bit bytes
     
     always @ (*)
     begin
